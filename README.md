@@ -1,1 +1,1 @@
-CROP PULSE: AI-Driven Crop Health Surveillance for Early Detection and Precision Agriculture
+Crop Pulse leverages computer vision and machine learning to analyze satellite and image data for early detection of crop diseases, nutrient deficiencies, and pest threats. It empowers farmers with real-time, actionable insights to reduce crop loss and promote sustainable farming.
