@@ -1,0 +1,198 @@
+/* 🌿 General Page Layout */
+.home-page {
+  font-family: "Poppins", sans-serif;
+  color: #1a1a1a;
+  background: #f8fdf7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add space below Navbar */
+.home-hero {
+  padding: 120px 5% 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #d8f3dc, #b7e4c7);
+  border-bottom: 2px solid #74c69d;
+}
+
+/* 🌾 Hero Section */
+.hero-content h1 {
+  font-size: 2.2rem;
+  color: #1b4332;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  font-size: 1.1rem;
+  color: #2d6a4f;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+/* ✨ Actions Section */
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.city-input {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.city-input input {
+  padding: 10px 15px;
+  border: 2px solid #95d5b2;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.city-input input:focus {
+  outline: none;
+  border-color: #52b788;
+  box-shadow: 0 0 5px #95d5b2;
+}
+
+.btn {
+  background: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #1b4332;
+}
+
+/* 📸 Photo Upload */
+.photo-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.file-label {
+  background: #52b788;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.file-label:hover {
+  background: #40916c;
+}
+
+.photo-preview img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #74c69d;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🌦 Weather Section */
+.home-main {
+  flex: 1;
+  padding: 40px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.weather-block {
+  text-align: center;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  width: 100%;
+}
+
+.weather-block h2 {
+  color: #1b4332;
+  margin-bottom: 15px;
+}
+
+.weather-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.weather-card div {
+  background: #ecf9f1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* 🧠 Info Cards */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card h3 {
+  color: #1b4332;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #2d6a4f;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* ⚠️ Error & Muted Text */
+.err {
+  color: #d00000;
+  font-weight: bold;
+}
+
+.muted {
+  color: #6c757d;
+}
+
+/* 🦶 Footer */
+.home-footer {
+  background: #1b4332;
+  color: #d8f3dc;
+  text-align: center;
+  padding: 18px 10px;
+  font-size: 0.9rem;
+  border-top: 3px solid #52b788;
+  margin-top: auto;
+}
