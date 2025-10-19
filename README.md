@@ -1,8 +1,4 @@
 
-## 📁 Documentation Folder
-[View the folder](Documentation Crop pulse.docx)
-# Getting Started with Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
